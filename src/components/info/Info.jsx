@@ -32,7 +32,7 @@ const Info = () => {
                 </div>
 
                 <div className="myImage">
-                    <img src="src/assets/myImage/IMG_05601.jpeg" alt="my image" />
+                    <img src="images/IMG_05601.jpeg" alt="my image" />
                 </div>
             </div>
         </Wrapper>

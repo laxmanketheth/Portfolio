@@ -125,7 +125,7 @@ export const projects = [
         description:
             "Movix: Your go-to website for movies and TV shows, powered by the TMDB API, offering a vast collection of data, ratings, and information.",
         image:
-            "src/assets/myImage/Screenshot (2).png",
+            "images/Screenshot (2).png",
         tags: [
             "React Js",
             "Redux",
@@ -142,7 +142,7 @@ export const projects = [
         description:
             "Luxe : A fashionable clothes shopping app with an admin page for effortless product management, providing a curated collection, personalized recommendations, and a seamless shopping experience.",
         image:
-            "src/assets/myImage/Screenshot (3).png",
+            "images/Screenshot (3).png",
         tags: [
             "React Js",
             "Redux",
@@ -182,7 +182,7 @@ export const projects = [
         description:
             "Vanvas : The canvas app is a digital drawing tool that allows users to create and draw on a blank canvas using various tools and colors.",
         image:
-            "src/assets/myImage/Screenshot (5).png",
+            "images/Screenshot (5).png",
         tags: [
             "HTML",
             "CSS",
@@ -198,7 +198,7 @@ export const projects = [
         description:
             "Weather App : It is a web application that utilizes a free weather API to provide real-time weather information, including temperature, rainfall, and wind data, based on the user's input of a city name.",
         image:
-            "src/assets/myImage/Screenshot (4).png",
+            "images/Screenshot (4).png",
         tags: [
             "HTML",
             "CSS",
@@ -216,7 +216,7 @@ export const projects = [
 export const education = [
     {
         id: 1,
-        image: "src/assets/myImage/logo@3x1.png",
+        image: "images/logo@3x1.png",
         institution: "Xccelerate, Hong Kong",
         date: "May 2023 - Nov 2023",
         description: "I was enrolled in a Full Stack Web Development Bootcamp at Xccelerate, where I learned HTML, CSS, JavaScript, Node.js, Express, and React to build dynamic web applications.",
