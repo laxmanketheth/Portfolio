@@ -16,12 +16,12 @@ const Contact = () => {
 
                         <div>
                             <a className='icon linkedin'
-                                href="https://www.linkedin.com/in/laxman-singh-ketheth-15957b261/"
+                                href="https://www.linkedin.com/in/laxman-singh-ketheth-35a2bb2b2/"
                                 target="_blank"
                             >
                                 <LinkedInIcon />
                             </a>
-                            <a href="https://www.linkedin.com/in/laxman-singh-ketheth-15957b261/" target="_blank">
+                            <a href="https://www.linkedin.com/in/laxman-singh-ketheth-35a2bb2b2/" target="_blank">
                                 <span className='text'>linkedIn</span>
                             </a>
                         </div>
