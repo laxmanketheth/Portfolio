@@ -1,0 +1,55 @@
+@import "../../mixins.scss";
+
+.parent-container {
+    // border: 1px solid;
+    background-image: linear-gradient(98.37deg, #090f26 0.99%, #3f175f 100%);
+}
+
+.contact{
+    padding-top: 20px;
+    // border: 1px solid;
+}
+
+.contact-container {
+    // border: 1px solid green;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details {
+    // border: 1px solid red;
+    display: flex;
+    &>div {
+        margin: 0px 20px;
+        display: flex;
+        align-items: center;
+        &>a{
+            text-decoration: none;
+             
+        }   
+    }
+    @include md{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+     } 
+
+    .linkedin{
+        text-decoration: none;
+        & :hover{
+            transform: scale(1.1);
+            transition: transform  ease-in-out;
+        }
+    }
+
+    .text {
+        font-size: 17px;
+        font-weight: 600;
+        padding: 0px 5px;
+    }
+
+}
