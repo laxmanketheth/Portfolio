@@ -1,5 +1,5 @@
 
-import HorizontalLine from '../components/HorizontalLine/HorizontalLine'
+import HorizontalLine from '../components/horizontalLine/HorizontalLine'
 import Contact from '../components/contact/Contact'
 import Education from '../components/education/Education'
 import Info from '../components/info/Info'
@@ -18,7 +18,6 @@ const Home = () => {
             <Projects/>
             <HorizontalLine/>
             <Education />
-            {/* <HorizontalLine/> */}
             <Contact />
         </div>
     )
