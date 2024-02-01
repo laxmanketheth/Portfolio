@@ -26,7 +26,7 @@ const Info = () => {
                     </h2>
                     <div className='intro'>{Bio.description}</div>
 
-                    <a href="">Check Resume</a>
+                    {/* <a href="">Check Resume</a> */}
                     <a href="https://www.linkedin.com/in/laxman-singh-ketheth-15957b261/" target="_blank">LinkedIn Profile</a>
 
                 </div>
