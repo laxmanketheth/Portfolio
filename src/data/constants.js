@@ -164,45 +164,70 @@ export const projects = [
         image:
             "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
         tags: [
-            "Handlebars",
-            "CSS",
+            "Javascript",
             "Node Js",
             "Express js",
             "PostgreSQL",
             "Knex",
             "JWT",
-            "bcrypt"
+            "bcrypt",
+            "Handlebars",
+            "CSS"
         ],
         github: "https://github.com/laxmanketheth/lms_project",
         webapp: "",
     },
+
     {
         id: 4,
+        title: "Task Manager",
+        description:
+            " Task MAnager : It is a web application that shows all the todos of a user and allows user to add new Todos. The data is stored to MongoDb database. User can delete todos individually and also all todos can be deleted at the same time.",
+        image:
+            "images/Screenshot 2024-03-05 223637.png",
+        tags: [
+            "Javascript",
+            "ReactJS",
+            "ReduxJS",
+            "ReduxThunk",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "CSS",
+            "HTML"
+            
+        ],
+        github: "https://github.com/laxmanketheth/Todo-App",
+        webapp: "https://todo-app-frontend-orpin.vercel.app/",
+    },
+    
+    {
+        id: 5,
         title: "Canvas",
         description:
             "Vanvas : The canvas app is a digital drawing tool that allows users to create and draw on a blank canvas using various tools and colors.",
         image:
             "images/Screenshot (5).png",
         tags: [
-            "HTML",
+            "Javascript",
             "CSS",
-            "Javascript"
-            
+            "HTML"
         ],
         github: "https://github.com/laxmanketheth/CanvasProject",
         webapp: "",
     },
+
     {
-        id: 5,
+        id: 6,
         title: "Weather App",
         description:
             "Weather App : It is a web application that utilizes a free weather API to provide real-time weather information, including temperature, rainfall, and wind data, based on the user's input of a city name.",
         image:
             "images/Screenshot (4).png",
         tags: [
-            "HTML",
+            "Javascript",
             "CSS",
-            "Javascript"
+            "HTML"
             
         ],
         github: "https://github.com/laxmanketheth/Weather-App",

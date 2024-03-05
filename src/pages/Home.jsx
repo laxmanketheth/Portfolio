@@ -9,6 +9,7 @@ import Skills from '../components/skills/Skills'
 
 const Home = () => {
     return (
+
         <div>
             <TopNavbar/>
             <Info/>
