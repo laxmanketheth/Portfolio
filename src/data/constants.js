@@ -214,7 +214,7 @@ export const projects = [
             "HTML"
         ],
         github: "https://github.com/laxmanketheth/CanvasProject",
-        webapp: "",
+        webapp: "https://canvas-project-snowy.vercel.app/",
     },
 
     {
