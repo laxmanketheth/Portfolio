@@ -153,7 +153,7 @@ export const projects = [
             "JWT"
         ],
         github: "https://github.com/laxmanketheth/Ecommerce-app",
-        webapp: "",
+        webapp: "https://ecommerce-app-frontend-tau.vercel.app/",
     },
     {
         id: 3,
