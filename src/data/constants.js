@@ -120,6 +120,29 @@ export const skills = [
 export const projects = [
     {
         id: 1,
+        title: "Catch Fever ",
+        // date: "Jan 2024 - Dec 2023",
+        description:
+            "Catch Fever: A fast-paced web-based game where you must catch falling items within 60 seconds. Avoid the negative items, collect the positive ones, and climb the leaderboard. Check your rank and score against the top 100 players in real-time.",
+        image:
+            "images/Screenshot 2024-04-01 191821.png",
+        tags: [
+            "Javascript",
+            "React Js",
+            "Redux Toolkit",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB",
+            "CSS",
+            "HTML",
+            "ScSS",
+            "Fetch",
+        ],
+        github: "https://github.com/laxmanketheth/Catch-Game",
+        webapp: "https://catch-game-frontend.vercel.app/",
+    },
+    {
+        id: 2,
         title: "Movix",
         // date: "Jan 2024 - Dec 2023",
         description:
@@ -136,7 +159,7 @@ export const projects = [
         webapp: "https://movix-six-psi.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Luxe",
         // date: "Jan 2024 - Dec 2023",
         description:
@@ -156,7 +179,7 @@ export const projects = [
         webapp: "https://ecommerce-app-frontend-tau.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "LMS Website",
         // date: "Jan 2024 - Dec 2023",
         description:
@@ -179,7 +202,7 @@ export const projects = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Task Manager",
         description:
             " Task MAnager : It is a web application that shows all the todos of a user and allows user to add new Todos. The data is stored to MongoDb database. User can delete todos individually and also all todos can be deleted at the same time.",
@@ -202,7 +225,7 @@ export const projects = [
     },
     
     {
-        id: 5,
+        id: 6,
         title: "Canvas",
         description:
             "Vanvas : The canvas app is a digital drawing tool that allows users to create and draw on a blank canvas using various tools and colors.",
@@ -218,7 +241,7 @@ export const projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         title: "Weather App",
         description:
             "Weather App : It is a web application that utilizes a free weather API to provide real-time weather information, including temperature, rainfall, and wind data, based on the user's input of a city name.",
