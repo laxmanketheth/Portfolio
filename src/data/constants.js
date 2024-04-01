@@ -125,7 +125,7 @@ export const projects = [
         description:
             "Catch Fever: A fast-paced web-based game where you must catch falling items within 60 seconds. Avoid the negative items, collect the positive ones, and climb the leaderboard. Check your rank and score against the top 100 players in real-time.",
         image:
-            "images/Screenshot 2024-04-01 191821.png",
+            "images/Screenshot 2024-04-01 212617.png",
         tags: [
             "Javascript",
             "React Js",
