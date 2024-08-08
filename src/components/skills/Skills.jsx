@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div id='skills'>
       <h1 className='title'>Skills</h1>
-      <p>Here are some of my skills on which I have been working on for the past 7 months.</p>
+      <p>Here are some of my skills on which I have been working on.</p>
     
       <Wrapper>
         <div className='container'>

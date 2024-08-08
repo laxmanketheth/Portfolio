@@ -37,9 +37,19 @@ export const skills = [
                 image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
             },
             {
+                id:4,
+                name: "NextJs",
+                image: "images/skillsImages/next-js-logo.webp",
+            },
+            {
                 id:5,
                 name: "Javascript",
                 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+            },
+            {
+                id:7,
+                name: "TypeScript",
+                image: "images/skillsImages/Typescript_logo_2020.svg.png"
             },
             {
                 id:6,
@@ -48,8 +58,8 @@ export const skills = [
             },
             {
                 id:7,
-                name: "Material UI",
-                image: "https://tse1.mm.bing.net/th?id=OIP.OYXrK-RhfTvUyMu9l3oQGgHaHa&pid=Api&P=0&h=220"
+                name: "MaterialUI",
+                image: "images/skillsImages/png-transparent-material-ui-logo-thumbnail.png"
             },
         ]
     },
@@ -59,31 +69,36 @@ export const skills = [
         skills: [
             {   
                 id:1,
-                name: "Node Js",
+                name: "NodeJs",
                 image: "https://nodejs.org/static/images/logo.svg"
             },
-            {
+            {   
                 id:2,
-                name: "Express Js",
-                image: "https://tse4.mm.bing.net/th?id=OIP.1fZjQpkRMKTBGN_7H5YnFwHaGL&pid=Api&P=0&h=220"
+                name: "NestJs",
+                image: "images/skillsImages/images.png"
             },
             {
                 id:3,
+                name: "ExpressJs",
+                image: "https://tse4.mm.bing.net/th?id=OIP.1fZjQpkRMKTBGN_7H5YnFwHaGL&pid=Api&P=0&h=220"
+            },
+            {
+                id:4,
                 name: "Javascript",
                 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
             },
             {
-                id:4,
+                id:5,
                 name: "Postgresql",
                 image: "https://www.postgresql.org/media/img/about/press/elephant.png"
             },
             {
-                id:5,
+                id:6,
                 name: "Rest API's",
                 image: "https://tse1.mm.bing.net/th?id=OIP.TazEx3MMSM_rOBjcprJ45QHaHq&pid=Api&P=0&h=220"
             },
             {
-                id:6,
+                id:7,
                 name: "Npm",
                 image: "https://tse3.mm.bing.net/th?id=OIP.CX9aD8_e-X1PP90ISK1SnQHaC4&pid=Api&P=0&h=220"
             },
@@ -115,7 +130,16 @@ export const skills = [
             }
         ]
     }
-]
+];
+
+export const internship = [
+    {
+        company: 'Ftechiz Solutions Pvt Ltd.',
+        duration: '( Mar2024 - June2024 , Remote )',
+        title: 'Full Stack Web Development Intern',
+    }
+];
+
 
 export const projects = [
     {
@@ -125,7 +149,7 @@ export const projects = [
         description:
             "Catch Fever: A fast-paced web-based game where you must catch falling items within 60 seconds. Avoid the negative items, collect the positive ones, and climb the leaderboard. Check your rank and score against the top 100 players in real-time.",
         image:
-            "images/Screenshot 2024-04-01 212617.png",
+            "images/projectsImages/Screenshot 2024-04-01 212617.png",
         tags: [
             "Javascript",
             "React Js",
@@ -148,7 +172,7 @@ export const projects = [
         description:
             "Movix: Your go-to website for movies and TV shows, powered by the TMDB API, offering a vast collection of data, ratings, and information.",
         image:
-            "images/Screenshot (2).png",
+            "images/projectsImages/Screenshot (2).png",
         tags: [
             "React Js",
             "Redux",
@@ -165,7 +189,7 @@ export const projects = [
         description:
             "Luxe : A fashionable clothes shopping app with an admin page for effortless product management, providing a curated collection, personalized recommendations, and a seamless shopping experience.",
         image:
-            "images/Screenshot (3).png",
+            "images/projectsImages/Screenshot (3).png",
         tags: [
             "React Js",
             "Redux",
@@ -185,7 +209,7 @@ export const projects = [
         description:
             "LMS : It is a learning management system offering a variety of courses for enrollment",
         image:
-            "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+            "images/projectsImages/Screenshot 2024-08-08 141600.png",
         tags: [
             "Javascript",
             "Node Js",
@@ -207,7 +231,7 @@ export const projects = [
         description:
             " Task MAnager : It is a web application that shows all the todos of a user and allows user to add new Todos. The data is stored to MongoDb database. User can delete todos individually and also all todos can be deleted at the same time.",
         image:
-            "images/Screenshot 2024-03-05 223637.png",
+            "images/projectsImages/Screenshot 2024-03-05 223637.png",
         tags: [
             "Javascript",
             "ReactJS",
@@ -230,7 +254,7 @@ export const projects = [
         description:
             "Vanvas : The canvas app is a digital drawing tool that allows users to create and draw on a blank canvas using various tools and colors.",
         image:
-            "images/Screenshot (5).png",
+            "images/projectsImages/Screenshot (5).png",
         tags: [
             "Javascript",
             "CSS",
@@ -246,7 +270,7 @@ export const projects = [
         description:
             "Weather App : It is a web application that utilizes a free weather API to provide real-time weather information, including temperature, rainfall, and wind data, based on the user's input of a city name.",
         image:
-            "images/Screenshot (4).png",
+            "images/projectsImages/Screenshot (4).png",
         tags: [
             "Javascript",
             "CSS",
@@ -272,7 +296,7 @@ export const education = [
       },
       {
         id: 2,
-        image: "https://img.jagranjosh.com/images/2022/December/21122022/Graphic-Era-University-GEU-Dehradun-Logo.jpg",
+        image: "images/Graphic-Era-University-GEU-Dehradun-Logo (2).jpg",
         institution: "Graphic Era University, India",
         date: "Aug 2015 - june 2019",
         description: "I graduated from Graphic Era University with a Bachelor's degree in Hotel Management, a program that provided me with a comprehensive education encompassing a wide range of subjects related to the hospitality industry.",

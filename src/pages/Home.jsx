@@ -6,6 +6,7 @@ import Info from '../components/info/Info'
 import TopNavbar from '../components/navbar/TopNavbar'
 import Projects from '../components/projects/Projects'
 import Skills from '../components/skills/Skills'
+import Internship from '../components/internship/Internship'
 
 const Home = () => {
     return (
@@ -15,6 +16,8 @@ const Home = () => {
             <Info/>
             <HorizontalLine/>
             <Skills/>
+            <HorizontalLine/>
+            <Internship/>
             <HorizontalLine/>
             <Projects/>
             <HorizontalLine/>

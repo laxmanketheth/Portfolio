@@ -9,11 +9,11 @@ const Projects = () => {
             <h1>Projects</h1>
             <p>Here are some of the projects that I have worked on </p>
             <Wrapper>
-                <div className='ProjectsContainer'>
+                <div className='projectsContainer'>
                     {
                         projects.map((item) => {
                             return (
-                                <div key={item.id} className='ProjectsCard col-sm-5'>
+                                <div key={item.id} className='projectsCard col-sm-5'>
                                     <div className="projects-subContainer">
                                         <div className='image-container'>
                                             <img className='project-image' src={item.image} alt="" />

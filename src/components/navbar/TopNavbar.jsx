@@ -20,6 +20,7 @@ const TopNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav" className='navCollapse'>
           <Nav className="ms-auto navTabs">
             <Nav.Link href="#skills" className='navitems'>Skills</Nav.Link>
+            <Nav.Link href="#internship" className='navitems'>Internship</Nav.Link>
             <Nav.Link href="#projects" className='navitems'>Projects</Nav.Link>
             <Nav.Link href="#education" className='navitems'>Education</Nav.Link>
             <Nav.Link href="#contact" className='navitems'>Contact</Nav.Link>
