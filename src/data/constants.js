@@ -142,9 +142,36 @@ export const internship = [
 
 
 export const projects = [
-    {
+     {
         id: 1,
-        title: "Catch Fever ",
+        title: "Mystry Message",
+        // date: "Jan 2024 - Dec 2023",
+        description:
+            "Mystry Message: A web app that lets users register and receive a unique URL for anonymous messaging and feedback. Built with Next.js and MongoDB, it enables candid communication while ensuring user privacy. Share your thoughts effortlessly!",
+        image:
+            "images/projectsImages/Screenshot 2024-09-29 203134.png",
+        tags: [
+            "Brevo",
+            "Javascript",
+            "Typescript",
+            "Next Js",
+            "Next-Auth",
+            "React-Form",
+            "NodeJs",
+            "Zod",
+            "MongoDB",
+            "Tailwind",
+            "React-Components",
+            "CSS",
+            "HTML",
+            "Axios",
+        ],
+        github: "https://github.com/laxmanketheth/MysteryMessage",
+        webapp: "https://mystery-message-pearl.vercel.app/",
+    },
+    {
+        id: 2,
+        title: "Catch Fever",
         // date: "Jan 2024 - Dec 2023",
         description:
             "Catch Fever: A fast-paced web-based game where you must catch falling items within 60 seconds. Avoid the negative items, collect the positive ones, and climb the leaderboard. Check your rank and score against the top 100 players in real-time.",
@@ -166,7 +193,7 @@ export const projects = [
         webapp: "https://catch-game-frontend.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Movix",
         // date: "Jan 2024 - Dec 2023",
         description:
@@ -183,7 +210,7 @@ export const projects = [
         webapp: "https://movix-six-psi.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Luxe",
         // date: "Jan 2024 - Dec 2023",
         description:
@@ -203,7 +230,7 @@ export const projects = [
         webapp: "https://ecommerce-app-frontend-tau.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: "LMS Website",
         // date: "Jan 2024 - Dec 2023",
         description:
@@ -226,7 +253,7 @@ export const projects = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Task Manager",
         description:
             " Task MAnager : It is a web application that shows all the todos of a user and allows user to add new Todos. The data is stored to MongoDb database. User can delete todos individually and also all todos can be deleted at the same time.",
@@ -249,7 +276,7 @@ export const projects = [
     },
     
     {
-        id: 6,
+        id: 7,
         title: "Canvas",
         description:
             "Vanvas : The canvas app is a digital drawing tool that allows users to create and draw on a blank canvas using various tools and colors.",
@@ -265,7 +292,7 @@ export const projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         title: "Weather App",
         description:
             "Weather App : It is a web application that utilizes a free weather API to provide real-time weather information, including temperature, rainfall, and wind data, based on the user's input of a city name.",
